@@ -6,9 +6,19 @@ tags:
   - Deisgn
   - Testing
   - Mock
+  - Platform
 type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
+common:
+  - url: https://www.conektto.io/faqs
+    name: FAQs
+    type: FAQ
+    description: 'null'
+  - url: https://www.conektto.io/
+    name: Best API Design Platform Online 2023 - Conektto
+    type: Portal
+    description: 'null'
 created: '2025-01-08'
 modified: '2025-01-08'
 position: Consuming
@@ -20,12 +30,3 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.19'
-common:
-  - name: FAQs
-    description: 'null'
-    url: https://www.conektto.io/faqs
-    type: FAQ
-  - name: Best API Design Platform Online 2023 - Conektto
-    description: 'null'
-    url: https://www.conektto.io/
-    type: Portal
