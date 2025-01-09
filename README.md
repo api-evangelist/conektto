@@ -11,7 +11,7 @@ Conektto simplifies and eliminates the complexity in API integrations. You focus
 
 ## Tags:
 
- - Deisgn, Testing, Mock
+ - Deisgn, Testing, Mock, Platform
 
 ## Timestamps
 
