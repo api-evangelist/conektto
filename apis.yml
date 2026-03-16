@@ -20,7 +20,7 @@ common:
     type: Portal
     description: 'null'
 created: '2025-01-08'
-modified: '2025-01-08'
+modified: '2026-03-16'
 position: Consuming
 description: >-
   Conektto simplifies and eliminates the complexity in API integrations. You
@@ -28,5 +28,5 @@ description: >-
   repetitive technical steps with AI.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
