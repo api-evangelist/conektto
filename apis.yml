@@ -28,14 +28,14 @@ tags:
 created: '2025-01-08'
 modified: '2026-04-28'
 specificationVersion: '0.19'
-x-type: company
+kind: company
 apis: []
 common:
   - type: Portal
     url: https://www.conektto.io/
   - type: FAQ
     url: https://www.conektto.io/faqs
-  - type: Sign Up
+  - type: SignUp
     url: https://app.conektto.io/signup
   - type: Login
     url: https://app.conektto.io/login
