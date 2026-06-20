@@ -4,7 +4,7 @@ url: https://raw.githubusercontent.com/api-evangelist/conektto/refs/heads/main/a
 type: Index
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 description: >-
   Conektto is an AI-assisted API design and lifecycle platform that
   helps teams design, simulate, generate, test, and deploy APIs. The
