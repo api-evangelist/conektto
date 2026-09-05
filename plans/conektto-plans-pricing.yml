@@ -1,0 +1,82 @@
+generated: '2026-09-05'
+method: searched
+source: https://docs.conektto.io/fundamentals/conektto-license-model
+sources:
+  - url: https://docs.conektto.io/fundamentals/conektto-license-model
+    status: 200
+    what: Community / Pro / Enterprise feature-and-quota table (no prices)
+  - url: https://www.conektto.io/faqs
+    status: 200
+    what: The only place Conektto publishes a price — "PRO plan that starts at $449 per month or $3830 for annual subscription", 30-day free trial, custom pricing for enterprise
+note: >-
+  Conektto no longer serves a /pricing page — https://www.conektto.io/pricing returns 404
+  (probed 2026-09-05) and the current Webflow homepage no longer links to one. Pricing now
+  lives in two places: the docs license-model table (tiers and quotas, no money) and the
+  FAQ (the dollar figures). The two are not perfectly consistent — the docs table names a
+  free "Community" tier while the FAQ frames the free entry point as a 30-day trial — and
+  both are recorded here as published rather than reconciled. Prices are for the SaaS
+  workbench seat; Conektto publishes no public developer API, so none of these tiers meters
+  API calls.
+currency: USD
+plan_count: 3
+plans:
+  - name: Community
+    price: 0
+    currency: USD
+    billing_period: null
+    note: >-
+      Free tier in the docs license table. The FAQ describes the free entry point as a
+      30-day trial instead; treat "free forever vs 30 days" as unsettled in their own docs.
+    included:
+      free_format_api_designs: unlimited
+      data_provider_apis: 4
+      api_test_projects: 4
+      aggregate_apis: 4
+      republish: 10x per project
+      collaborators: 3 per project
+      test_data_generation: 10x per project
+      data_retention: 6 months
+      github_integration: public repositories
+      login: LinkedIn, Google, GitHub
+    overage: null
+  - name: Pro
+    price: 449
+    currency: USD
+    billing_period: month
+    annual_price: 3830
+    annual_billing_period: year
+    price_qualifier: "starts at"
+    price_source: https://www.conektto.io/faqs
+    included:
+      free_format_api_designs: unlimited
+      data_provider_apis: unlimited
+      api_test_projects: unlimited
+      aggregate_apis: unlimited
+      republish: 100x per project
+      collaborators: 10 per project
+      test_data_generation: 100x per project
+      data_retention: subscription + 6 months
+      github_integration: public repositories
+      login: LinkedIn, Google, GitHub
+    overage: null
+  - name: Enterprise
+    price: null
+    currency: USD
+    billing_period: null
+    note: Custom pricing; contact engage@conektto.io.
+    included:
+      free_format_api_designs: unlimited
+      data_provider_apis: unlimited
+      api_test_projects: unlimited
+      aggregate_apis: unlimited
+      republish: unlimited
+      collaborators: unlimited
+      test_data_generation: unlimited
+      data_retention: unlimited
+      github_integration: enterprise repositories
+      login: Single Sign-On
+    overage: null
+trial:
+  available: true
+  length_days: 30
+  source: https://www.conektto.io/faqs

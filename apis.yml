@@ -56,25 +56,37 @@ tags_raw:
   - Mocking
   - Platform
 created: '2025-01-08'
-modified: '2026-04-28'
+modified: '2026-09-05'
 specificationVersion: '0.23'
 kind: company
 apis: []
 common:
+  - type: Website
+    url: https://www.conektto.io/
   - type: DomainSecurity
     url: security/conektto-domain-security.yml
   - type: Portal
     url: https://www.conektto.io/
+  - type: Documentation
+    url: https://docs.conektto.io/
+  - type: GettingStarted
+    url: https://docs.conektto.io/fundamentals/getting-set-up
   - type: FAQ
     url: https://www.conektto.io/faqs
-  - type: Signup
-    url: https://app.conektto.io/signup
-  - type: Login
-    url: https://app.conektto.io/login
+  - type: Support
+    url: https://www.conektto.io/contact
   - type: Pricing
-    url: https://www.conektto.io/pricing
-  - type: Blog
-    url: https://www.conektto.io/blog
+    url: https://docs.conektto.io/fundamentals/conektto-license-model
+  - type: Plans
+    url: plans/conektto-plans-pricing.yml
+  - type: LLMsTxt
+    url: llms/conektto-llms.txt
+  - type: TermsOfService
+    url: https://www.conektto.io/terms-conditions
+  - type: PrivacyPolicy
+    url: https://www.conektto.io/privacy-policy
+  - type: GitHubOrganization
+    url: https://github.com/Conektto
   - type: Contact
     url: https://www.conektto.io/contact
   - type: LinkedIn
@@ -84,3 +96,29 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-05'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Conektto sells an AI-assisted API design and test workbench that CONSUMES OpenAPI and
+    ships none of its own — the complete 16-page GitBook docs set (served, and indexed by a
+    real /llms.txt) covers only the SaaS UI, and every spec path probed on the marketing,
+    docs and app hosts 404'd; the app host app.conektto.io additionally refused every TCP
+    connection on 443 and 80 on 2026-09-05, and www.conektto.io/pricing now 404s.
+  evidence:
+    - url: https://docs.conektto.io/llms.txt
+      status: 200
+    - url: https://www.conektto.io/openapi.json
+      status: 404
+    - url: https://docs.conektto.io/openapi.json
+      status: 404
+    - url: https://app.conektto.io/signin
+      status: 0
+    - url: https://www.conektto.io/pricing
+      status: 404
+  checked: '2026-09-05'

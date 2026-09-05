@@ -1,0 +1,20 @@
+# Conektto
+
+## Conektto
+
+- [Introduction to Conektto](https://docs.conektto.io/introduction-to-conektto.md): Conektto is a revolutionary platform that simplifies and accelerates API development, enabling businesses to unlock the full potential of their digital ecosystems.
+- [How Conektto works](https://docs.conektto.io/overview/how-conektto-works.md)
+- [System Requirements](https://docs.conektto.io/overview/system-requirements.md): Here is the outline of system / user desktop software required for working with Conektto and its generated artifacts.
+- [Create new API](https://docs.conektto.io/product-guides/create-new-api.md)
+- [Conektto Design Studio](https://docs.conektto.io/product-guides/create-new-api/conektto-design-studio.md)
+- [Free Format API design](https://docs.conektto.io/product-guides/create-new-api/free-format-api-design.md)
+- [Data Provider API Design](https://docs.conektto.io/product-guides/create-new-api/data-provider-api-design.md)
+- [Composable Studio](https://docs.conektto.io/product-guides/create-new-api/composable-studio.md): With Composable Studio, you can create, manage, and optimize your API workflow code with ease, reducing complexity and boosting productivity and in multiple programming languages.
+- [Types of Design Patterns supported](https://docs.conektto.io/product-guides/create-new-api/composable-studio/types-of-design-patterns-supported.md)
+- [Designing Aggregate API in Composable Studio](https://docs.conektto.io/product-guides/create-new-api/composable-studio/designing-aggregate-api-in-composable-studio.md)
+- [Collections](https://docs.conektto.io/product-guides/collections.md): Introducing Conektto's Collections: Enhance Your API Testing and Organization
+- [API Standards and Governance](https://docs.conektto.io/product-guides/api-standards-and-governance.md)
+- [Create API Test](https://docs.conektto.io/product-guides/create-api-test.md)
+- [Execute API Test](https://docs.conektto.io/product-guides/execute-api-test.md): Conektto's Autonomous API Test Studio uses NLP technology to analyze and create test harness for executing all your tests. Before you continue on this section, make sure you read the previous section.
+- [Getting set up](https://docs.conektto.io/fundamentals/getting-set-up.md)
+- [Conektto License Model](https://docs.conektto.io/fundamentals/conektto-license-model.md): Refer to Conektto's pricing plan inside the app as well as not he website for latest information.

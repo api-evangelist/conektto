@@ -1,0 +1,77 @@
+generated: '2026-09-05'
+method: probed
+source: live HTTPS probes of every host this record knows (registrable domain, www, docs host, app host)
+note: >-
+  Every named /.well-known/ path returned 404 on every reachable Conektto host, and the
+  app host did not accept a TCP connection at all. No document was fetched and none was
+  saved, so NO WellKnown or SecurityTxt pointer is emitted — this file records a verified
+  absence, not a presence. The path-echo negative control returned 404 on both reachable
+  hosts, so the 404s are real 404s rather than a catch-all router.
+hit_count: 0
+path_echo_control: passed
+hosts:
+  - host: https://www.conektto.io
+    documents:
+      - {path: /.well-known/security.txt, status: 404, file: null}
+      - {path: /.well-known/openid-configuration, status: 404, file: null}
+      - {path: /.well-known/oauth-authorization-server, status: 404, file: null}
+      - {path: /.well-known/oauth-protected-resource, status: 404, file: null}
+      - {path: /.well-known/api-catalog, status: 404, file: null}
+      - {path: /.well-known/ai-plugin.json, status: 404, file: null}
+      - {path: /.well-known/ucp.json, status: 404, file: null}
+      - {path: /.well-known/acp.json, status: 404, file: null}
+      - {path: /.well-known/aauth-resource.json, status: 404, file: null}
+      - {path: /.well-known/apis.json, status: 404, file: null}
+      - {path: /apis.json, status: 404, file: null}
+      - {path: /apis.yml, status: 404, file: null}
+      - {path: /.well-known/agent-card.json, status: 404, file: null}
+      - {path: /.well-known/agent.json, status: 404, file: null}
+      - {path: /.well-known/conektto-negative-control-7f3ab91c.json, status: 404, file: null}
+  - host: https://conektto.io
+    documents:
+      - {path: /.well-known/security.txt, status: 404, file: null}
+      - {path: /.well-known/openid-configuration, status: 404, file: null}
+      - {path: /.well-known/oauth-authorization-server, status: 404, file: null}
+      - {path: /.well-known/oauth-protected-resource, status: 404, file: null}
+      - {path: /.well-known/api-catalog, status: 404, file: null}
+      - {path: /.well-known/ai-plugin.json, status: 404, file: null}
+      - {path: /.well-known/apis.json, status: 404, file: null}
+      - {path: /apis.json, status: 404, file: null}
+      - {path: /apis.yml, status: 404, file: null}
+      - {path: /.well-known/agent-card.json, status: 404, file: null}
+      - {path: /.well-known/agent.json, status: 404, file: null}
+      - {path: /.well-known/aauth-resource.json, status: 404, file: null}
+      - {path: /.well-known/conektto-negative-control-7f3ab91c.json, status: 404, file: null}
+  - host: https://docs.conektto.io
+    note: GitBook-hosted documentation. /llms.txt IS served here (saved to llms/conektto-llms.txt) but no /.well-known/ document is.
+    documents:
+      - {path: /.well-known/security.txt, status: 404, file: null}
+      - {path: /.well-known/openid-configuration, status: 404, file: null}
+      - {path: /.well-known/oauth-authorization-server, status: 404, file: null}
+      - {path: /.well-known/oauth-protected-resource, status: 404, file: null}
+      - {path: /.well-known/api-catalog, status: 404, file: null}
+      - {path: /.well-known/ai-plugin.json, status: 404, file: null}
+      - {path: /.well-known/ucp.json, status: 404, file: null}
+      - {path: /.well-known/acp.json, status: 404, file: null}
+      - {path: /.well-known/aauth-resource.json, status: 404, file: null}
+      - {path: /.well-known/apis.json, status: 404, file: null}
+      - {path: /apis.json, status: 404, file: null}
+      - {path: /apis.yml, status: 404, file: null}
+      - {path: /.well-known/agent-card.json, status: 404, file: null}
+      - {path: /.well-known/agent.json, status: 404, file: null}
+      - {path: /.well-known/conektto-negative-control-7f3ab91c.json, status: 404, file: null}
+  - host: https://app.conektto.io
+    note: >-
+      Host resolves to 34.123.13.63 but refused/timed out every TCP connection on 443 and 80
+      across five attempts from two networks on 2026-09-05, so no path could be probed.
+      status 0 means "no HTTP response was ever received", not "404".
+    documents:
+      - {path: /.well-known/security.txt, status: 0, file: null}
+      - {path: /.well-known/openid-configuration, status: 0, file: null}
+      - {path: /.well-known/oauth-authorization-server, status: 0, file: null}
+      - {path: /.well-known/oauth-protected-resource, status: 0, file: null}
+      - {path: /.well-known/api-catalog, status: 0, file: null}
+      - {path: /.well-known/ai-plugin.json, status: 0, file: null}
+      - {path: /.well-known/agent-card.json, status: 0, file: null}
+      - {path: /.well-known/agent.json, status: 0, file: null}
+      - {path: /.well-known/aauth-resource.json, status: 0, file: null}
