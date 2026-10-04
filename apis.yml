@@ -39,6 +39,9 @@ description: >-
   to the Design Studio. Customer integrations are surfaced through the
   SaaS UI, GitHub workspace integrations, and custom enterprise
   engagements.
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-24
 tags:
   - Artificial Intelligence
   - API Design
