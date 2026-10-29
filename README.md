@@ -1,4 +1,4 @@
-# Conektto (conektto)
+# Conektto
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,42 +66,99 @@
 
 Conektto is an AI-assisted API design and lifecycle platform that helps teams design, simulate, generate, test, and deploy APIs. The platform bundles a Design Studio (NLP-driven contract design), an Autonomous Test Studio (mocking, test generation, test data, and performance testing), a Hybrid API Orchestrator, and an enterprise SDLC workspace. Conektto is delivered as a hosted SaaS workbench with a free Community Edition and a Pro Plan; it does not currently publish a public, self-service developer API for programmatic access to the Design Studio. Customer integrations are surfaced through the SaaS UI, GitHub workspace integrations, and custom enterprise engagements.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/conektto/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · API Design · API Lifecycle · API Testing · Contract Testing · Mocking · Platform
 
-## Scope
+## Conektto on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **x-type:** company
+Everything profiled for Conektto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/conektto/](https://apis.io/providers/conektto/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- AI, API Design, API Lifecycle, API Testing, Contract Testing, Mocking, Platform
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### MCP servers (1)
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-28
+Model Context Protocol servers that expose the API to agents.
 
-## APIs
+- [Moved to /providers/conektto/](https://apis.io/servers/conektto/conektto/)
 
-Conektto does not publish a public, self-service developer API. The Design Studio, Autonomous Test Studio, and Hybrid API Orchestrator are accessed through the hosted SaaS workbench, GitHub workspace integration, and enterprise engagements.
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Portal](https://www.conektto.io/)
-- [FAQ](https://www.conektto.io/faqs)
-- [Sign Up](https://app.conektto.io/signup)
-- [Login](https://app.conektto.io/login)
-- [Pricing](https://www.conektto.io/pricing)
+- [Conektto Domain Security](https://apis.io/security/conektto/conektto-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Conektto Plans Pricing](https://apis.io/plans/conektto/conektto-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.conektto.io/)
+- [Documentation](https://docs.conektto.io/)
+- [Getting started](https://docs.conektto.io/fundamentals/getting-set-up)
+- [Pricing](https://docs.conektto.io/fundamentals/conektto-license-model)
+- [Support](https://www.conektto.io/contact)
 - [Blog](https://www.conektto.io/blog)
-- [Contact](https://www.conektto.io/contact)
-- [LinkedIn](https://www.linkedin.com/company/conektto-inc)
-- [Product Hunt](https://www.producthunt.com/products/conektto-api-first-design-studio)
+- [Terms of service](https://www.conektto.io/terms-conditions)
+- [Privacy policy](https://www.conektto.io/privacy-policy)
+- [GitHub](https://github.com/Conektto)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 26.1** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 63.2 |
+
+**Agent readiness 8.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/conektto/](https://apis.io/providers/conektto/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Conektto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/conektto/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
